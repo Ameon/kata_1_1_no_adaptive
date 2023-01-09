@@ -1,0 +1,92 @@
+/* Common style */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #EFF6FF;
+  font-size: 14px;
+  font-family: 'Barlow';
+}
+
+/* Page regesration */
+
+#reg {
+  display: flex;
+  width:1440px;
+  height: 1000px;
+  margin: 100px auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: relative;
+}
+
+#col_1 {
+  width: 53%;
+  background: linear-gradient(#3569D6, #358BF0);
+  background-image: url(/img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#col_2 {
+  width: 47%;
+  background-color: #fff;
+  padding: 100px 80px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+/* Column 1 */
+
+#logo {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+#logo svg {
+  width: 180px;
+  height: fit-content;
+
+}
+
+/* Column 2 */
+
+#info {
+  font-size: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.button {
+  background: #3698FB;
+}
+
+button svg {
+  width: 20px;
+  height: 20px;
+}
+
+.buttons button {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items:center;
+}
+.btn_title {
+  font-size:16px;
+}
+
+.fb {
+  background-color: #255A9B;
+}
+
+.in {
+  background-color: #0076B6;
+}
