@@ -251,7 +251,7 @@ button::before {
 .register__radio-list {
   display: flex;
   justify-content: space-between;
-  margin: 50px 0 50px;
+  margin: 50px 0 150px;
   list-style: none;
 }
 
@@ -259,10 +259,7 @@ button::before {
   position: relative;
   display: block;
   margin-left: 5px;
-  width: 10px;
-  height: 10px;
-  border: 1px solid var(--color-gray3);
-  border-radius: 50%;
+  align-items: center;
 }
 
 .tooltip__text {
@@ -286,6 +283,22 @@ button::before {
   visibility: visible;
 }
 
+/* Radio Button */
+
+.register__radio-btn-label {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  color: var(--color-text);
+  cursor: pointer;
+}
+
+.register__radio-title {
+  margin: 0 12px 0 6px;
+}
+
 /* Submit */
 
 button[type=submit] {
@@ -307,3 +320,10 @@ button[type=submit] {
   cursor: pointer;
   transition: 0.3s;
 }
+
+.tooltip svg {
+  width: 10px;
+  height: 10px;
+  color: var(--color-gray3); 
+}
+
