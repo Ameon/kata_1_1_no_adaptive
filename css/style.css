@@ -347,7 +347,6 @@ button[type=submit] {
   margin-top: 18px;
   justify-content: center;
   transition: 0.3s;
-  margin: 10px 0;
 }
 
 .tooltip svg {
