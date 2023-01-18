@@ -135,7 +135,7 @@ button svg {
   background-color: #0076B6;
 }
 
-button::before {
+.register__social button::before {
   content: '';
   width: 20px;
   height: 20px;
