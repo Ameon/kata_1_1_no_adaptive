@@ -148,14 +148,14 @@ button::before {
 }
 
 .fb::before {
-  -webkit-mask: url(/img/facebook.svg) no-repeat 50% 50%;
-  mask: url(/img/facebook.svg) no-repeat 50% 50%;
+  -webkit-mask: url(../img/facebook.svg) no-repeat 50% 50%;
+  mask: url(../img/facebook.svg) no-repeat 50% 50%;
   -webkit-mask-size: cover;
 }
 
 .in:before {
-  -webkit-mask: url(/img/linkedin.svg) no-repeat 50% 50%;
-  mask: url(/img/linkedin.svg) no-repeat 50% 50%;
+  -webkit-mask: url(../img/linkedin.svg) no-repeat 50% 50%;
+  mask: url(../img/linkedin.svg) no-repeat 50% 50%;
   -webkit-mask-size: cover;
 }
 /* .content {
