@@ -63,7 +63,7 @@ button, label, input[type="radio"]{
 #col_1 {
   width: 760px;
   background: linear-gradient(#3569D6, #358BF0);
-  background-image: url(/img/bg.jpg);
+  background-image: url(img/bg.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
 }
