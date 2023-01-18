@@ -45,7 +45,11 @@ button {
   border: 0;
 }
 
-button, label, input[type="radio"]{
+button,
+label,
+input[type="radio"]
+input[type="checkbox"]
+{
   cursor: pointer;
 }
 
