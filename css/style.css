@@ -344,7 +344,7 @@ button[type=submit] {
   display: flex;
   align-items: center;
   gap: 20px;
-  padding-top: 18px;
+  margin-top: 18px;
   justify-content: center;
   transition: 0.3s;
   margin: 10px 0;
